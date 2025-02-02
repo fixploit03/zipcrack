@@ -60,7 +60,7 @@ int main(){
             cout << "[*] Menjalankan Tools Fcrackzip..." << endl << endl;
 
             // Perintah menjalankan Tools Fcrackzip
-            string perintah = "fcrackzip -v -u -D -p " + nama_file_wordlist + " " + nama_file_zip;
+            string perintah = "bin/./fcrackzip -v -u -D -p " + nama_file_wordlist + " " + nama_file_zip;
             // Menjalankan perintah
             system(perintah.c_str());
         }
